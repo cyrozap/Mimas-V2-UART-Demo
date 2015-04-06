@@ -1,5 +1,7 @@
 # Mimas-V2-UART-Demo
 
+[![Build Status](https://jenkins.cyrozap.com/job/Mimas-V2-UART-Demo/badge/icon)](https://jenkins.cyrozap.com/job/Mimas-V2-UART-Demo/)
+
 ## Prerequisites
 
 - Xilinx ISE (tested with version 14.7)
