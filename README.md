@@ -1,6 +1,7 @@
 # Mimas-V2-UART-Demo
 
 [![Build Status](https://jenkins.cyrozap.com/job/Mimas-V2-UART-Demo/badge/icon)](https://jenkins.cyrozap.com/job/Mimas-V2-UART-Demo/)
+[![License](http://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Prerequisites
 
