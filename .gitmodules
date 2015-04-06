@@ -1,0 +1,6 @@
+[submodule "ipcore_dir/osdvu"]
+	path = ipcore_dir/osdvu
+	url = https://github.com/cyrozap/osdvu.git
+[submodule "ipcore_dir/mimas_v2_hex_display"]
+	path = ipcore_dir/mimas_v2_hex_display
+	url = https://github.com/cyrozap/mimas_v2_hex_display.git
