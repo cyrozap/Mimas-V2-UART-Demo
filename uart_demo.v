@@ -25,7 +25,6 @@ module uart_demo(
 	input Rx,
 	output Tx,
 	output reg [0:7] LED,
-	input [7:0] DPSwitch,
 	output [7:0] SevenSegment,
 	output [2:0] SevenSegmentEnable
 	);
@@ -40,9 +39,6 @@ module uart_demo(
 	wire recv_error;
 
 	reg [7:0] display_byte;
-
-	wire [7:0] dpswitch_byte;
-	assign dpswitch_byte = ~DPSwitch;
 
 	assign reset = ~Switch[2];
 

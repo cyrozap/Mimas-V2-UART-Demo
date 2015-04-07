@@ -20,18 +20,6 @@
 	NET "Switch[5]"           LOC = K18   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
 
 ######################################################################################################################
-#                                                 DIP Switches                                                       #
-######################################################################################################################
-	NET "DPSwitch[0]"         LOC = C17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[1]"         LOC = C18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[2]"         LOC = D17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[3]"         LOC = D18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[4]"         LOC = E18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[5]"         LOC = E16  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[6]"         LOC = F18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-	NET "DPSwitch[7]"         LOC = F17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
-
-######################################################################################################################
 #                                                    LEDs                                                            #
 ######################################################################################################################
 
