@@ -38,9 +38,9 @@ module uart_demo(
 	wire is_transmitting;
 	wire recv_error;
 
-	reg [7:0] display_byte;
+	reg [7:0] display_byte; // The byte to be displayed
 
-	assign reset = ~Switch[2];
+	assign reset = ~Switch[2]; // Switch is active low
 
 	display_hex_byte #(
 		.refresh_rate(1000),
@@ -54,8 +54,8 @@ module uart_demo(
 	);
 
 	uart #(
-		.baud_rate(19200),
-		.sys_clk_freq(100000000)
+		.baud_rate(19200),                // This must always be 19200
+		.sys_clk_freq(100000000)          // The master clock frequency
 	)
 	uart0(
 		.clk(CLK_100MHz),                 // The master clock for this module
