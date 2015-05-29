@@ -34,7 +34,7 @@ DESIGN       := uart_demo
 LANGUAGE     := Verilog
 VLG_EXT      := v
 VHDL_EXT     := vhd
-DUT          := xc6slx9-csg324-3
+DUT          := xc6slx9-csg324-2
 
 TOP_PATH     := $(shell pwd)
 HDL_PATH     := $(TOP_PATH)

@@ -34,7 +34,7 @@
     - Family: Spartan6
     - Device: XC6SLX9
     - Package: CSG324
-    - Speed: -3
+    - Speed: -2
     - Preferred Language: Verilog
 5.  Add source files (Project -> Add Source...)
     - Select `uart_demo.v` and `mimas_v2.ucf`
